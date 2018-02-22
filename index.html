@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
-    <title>Test</title>
+    <title>First Angular application</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
   </head>
   <body>
-    <h1>Test Sahil</h1>
+    <h1>My first Angularjs App</h1>
+    <div class="" ng-controller="myFirstController">
+      <input type="text" name="" value="" ng-model="name" ng-keyup="displayNumber();">
+      {{name}}
+    
+      <div class="">
+        Total value is:  {{totalValue}}
+      </div>
+    </div>
+
+    </div>
   </body>
 </html>
