@@ -9,14 +9,13 @@
   <body>
     <h1>My first Angularjs App</h1>
     <div class="" ng-controller="myFirstController">
-      <input type="text" name="" value="" ng-model="name" ng-keyup="displayNumber();">
+      <input type="text" name="" value="" ng-model="name" ng-blur="upperLtr();">
       {{name}}
-    
+
       <div class="">
         Total value is:  {{totalValue}}
       </div>
     </div>
-
     </div>
   </body>
 </html>
